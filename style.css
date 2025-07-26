@@ -1,0 +1,71 @@
+body {
+  background: #222;
+  font-family: monospace;
+  color: #0f0;
+  text-align: center;
+}
+
+.gameboy {
+  background: #eee;
+  width: 320px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #000;
+}
+
+.screen {
+  background: #111;
+  color: #0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.screen h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.screen p {
+  margin: 5px 0;
+  color: yellow;
+}
+
+.buttons .row {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.buttons button:nth-child(1) { background: #2196F3; color: white; }
+.buttons button:nth-child(2) { background: #E53935; color: white; }
+.buttons button:nth-child(3) { background: #9C27B0; color: white; }
+.buttons button:nth-child(4) { background: #4CAF50; color: white; }
+
+.control {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dpad, .ab {
+  font-size: 20px;
+  color: #333;
+}
+
+.start-select {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
